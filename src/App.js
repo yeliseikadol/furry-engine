@@ -61,9 +61,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <NavBar/>
-      <Header logo="text"/>
-      <Typography variant="h1">Hello, world</Typography>
-      <CustomBtn txt="Press"/>
       <Form/>
     </ThemeProvider>
   )
