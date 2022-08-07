@@ -1,10 +1,7 @@
 import * as React from 'react';
-import CustomBtn from './components/CustomBtn';
 import NavBar from './components/NavBar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { blue, green } from '@mui/material/colors';
-import Typography from '@mui/material/Typography';
-import Header from './components/Header';
 import Form from './components/Form';
 import './App.css';
 
