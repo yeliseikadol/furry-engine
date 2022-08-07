@@ -5,6 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { blue, green } from '@mui/material/colors';
 import Typography from '@mui/material/Typography';
 import Header from './components/Header';
+import Form from './components/Form';
 import './App.css';
 
 const theme = createTheme({
@@ -63,6 +64,7 @@ function App() {
       <Header logo="text"/>
       <Typography variant="h1">Hello, world</Typography>
       <CustomBtn txt="Press"/>
+      <Form/>
     </ThemeProvider>
   )
 }
