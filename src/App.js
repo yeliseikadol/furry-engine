@@ -1,65 +1,35 @@
 import * as React from 'react';
-import NavBar from './components/NavBar';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { blue, green } from '@mui/material/colors';
-import Form from './components/Form';
+/*import Form from './components/Form';*/
+import NavBar from './components/NavBar'
+import TitleSection from './components/TitleSection'
+import SectionAbout from './components/SectionAbout';
+import SectionAdvantages from './components/SectionAdvantages';
+import SectionProcess from './components/SectionProcess';
+import SectionCurriculum from './components/SectionCurriculum';
+import SectionResult from './components/SectionResult';
+import SectionTeachers from './components/SectionTeachers';
+import SectionEnroll from './components/SectionEnroll';
+import SectionQA from './components/SectionQA';
 import './App.css';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: blue[500],
-    },
-    secondary: {
-      main: green[500],
-    }
-  },
-  typography: {
-    fontFamily: "bc-novatica-cyr",
-    h1: {
-      fontSize: 24,
-      fontWeight: 700,
-      lineHeight: 1.18,
-      margin: '24px 0 12px',
-    },
-    logo: {
-      fontSize: 20,
-      fontWeight: 700,
-      fontFamily: "bc-novatica-cyr",
-    },
-    body: {
-      fontSize: 20,
-      lineHeight: 1.5,
-      fontFamily: "bc-novatica-cyr",
-    },
-    button: {
-      fontSize: 14,
-      fontWeight: 700,
-      lineHeight: 1.6,
-      letterSpacing: 0,
-      textTransform: "none",
-    }
-  },
-  components: {
-    MuiButtonBase: {
-      defaultProps: {
-        disableRipple: false,
-      }
-    },
-    TabBar: {
-      defaultProps: {
-        disableElevation: true,
-      }
-    }
-  }
-})
+import './fonts.css';
+import './styling.css'
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <div className="flex-column">
       <NavBar/>
-      <Form/>
-    </ThemeProvider>
+      <TitleSection/>
+      <section className='flex-column flex-gap-128 bottom-2'>
+        <SectionAbout/>
+        <SectionAdvantages/>
+        <SectionProcess/>
+        <SectionCurriculum/>
+        <SectionResult/>
+        <SectionTeachers/>
+        <SectionEnroll/>
+        <SectionQA/>
+      </section>
+    </div>
   )
 }
 
