@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Form2 from './Form2'
 
 function Form() {
     return (
@@ -16,6 +17,7 @@ function Form() {
                     <input type="email" name="email" />
                 </label>
             </div>
+            <Form2/>
             <div>
                 <button type="submit">Press me</button>
             </div>
