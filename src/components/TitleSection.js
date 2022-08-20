@@ -36,7 +36,6 @@ function TitleSection() {
                             <div className="instrumentTag flex flex-gap-4"><Code /><span class="buttonSmall">HTML/CSS</span></div>                                                    
                         </div>
                         <div className='titleSection__buttonBar flex flex-gap-32'>
-                            <button>Записаться</button>
                             <div className='titleSection__buttonBarGroups flex flex-column'>
                                 <caption className='titleSection__buttonBarGroups'>Идёт набор на&nbsp;сентябрь и&nbsp;ноябрь 2022</caption>
                             </div>

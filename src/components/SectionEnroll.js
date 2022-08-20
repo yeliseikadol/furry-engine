@@ -4,7 +4,7 @@ import {ReactComponent as IconTime} from '../assets/iconEnrollPriceGrow.svg'
 
 function SectionEnroll() {
     return (
-        <section className='grid flex-column flex-gap-64 sectionEnroll'>
+        <section className='grid flex-column flex-gap-64 sectionEnroll' id='form-1'>
             <section className='flex-column flex-gap-32'>
                 <h4 className='sectionEnroll-eyebrow'>Стоимость и группы</h4>
                 <h1>Поступить <br/>в&nbsp;Bootcamp</h1>
