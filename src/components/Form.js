@@ -11,19 +11,19 @@ function Form() {
             <input type="hidden" name="form-name" value="contact" />
             <div>
                 <label>
-                    <inputTitle>Имя, Фамилия</inputTitle>
+                    <p className='input--title'>Имя, Фамилия</p>
                     <input type="text" name="name" />
                 </label>
                 <label>
-                    <inputTitle>Email</inputTitle>
+                    <p className='input--title'>Email</p>
                     <input type="email" name="email" />
                 </label>
                 <label>
-                    <inputTitle>Телефон (на экстренный случай)</inputTitle>
+                    <p className='input--title'>Телефон (на экстренный случай)</p>
                     <input type="tel" name="tel" />
                 </label>
                 <label>
-                    <inputTitle>Группа</inputTitle>
+                    <p className='input--title'>Группа</p>
                     <select
                         name='group'
                         value={group}

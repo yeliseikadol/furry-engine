@@ -10,12 +10,12 @@ function SectionAbout() {
                 </section>
                 <section className="imageColumns flex flex-gap-32">
                     <div className="imageColumns__image flex-column flex-gap-16">
-                        <div class='image--before'></div>
-                        <caption>Экран студента на&nbsp;первом занятии</caption>
+                        <div className='image--before'></div>
+                        <div className='caption'>Экран студента на&nbsp;первом занятии</div>
                     </div>
                     <div className="imageColumns__image flex-column flex-gap-16">
-                        <div class='image--after'></div>
-                        <caption>Приложение в&nbsp;конце курса<div>{/*<a href="https://figma.com" target="blank">Открыть в Figma</a>*/}</div></caption>
+                        <div className='image--after'></div>
+                        <div className='caption'>Приложение в&nbsp;конце курса</div><div>{/*<a href="https://figma.com" target="blank">Открыть в Figma</a>*/}</div>
                     </div>
                     
                 </section>

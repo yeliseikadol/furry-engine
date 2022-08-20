@@ -89,6 +89,11 @@ button:active {
     background-color: var(--background-button-active);
 }
 
+
+.input--title {
+    margin-bottom: 8px;
+}
+
 /*controls*/
 input, select, textarea {
     outline: 0;

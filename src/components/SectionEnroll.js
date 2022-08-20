@@ -19,11 +19,11 @@ function SectionEnroll() {
                 </div>
                 
 
-                <div class='flex-column flex-gap-16'>
+                <div className='flex-column flex-gap-16'>
                 <div className='flex-column'>
-                    <caption className='stroked'>640&nbsp;BYN</caption>
+                    <div className='caption stroked'>640&nbsp;BYN</div>
                     <div className='h2 color-red'>520&nbsp;BYN в&nbsp;месяц</div>
-                    <caption>3 платежа перед каждым месяцем обучения</caption>
+                    <div className='caption'>3 платежа перед каждым месяцем обучения</div>
                 </div>
 
                 <div className='flex'>

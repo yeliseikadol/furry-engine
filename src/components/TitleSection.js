@@ -11,7 +11,7 @@ import {ReactComponent as Notion} from '../assets/logoNotion.svg';
 function TitleSection() {
     return (
         <section className="titleSection">
-            <video className="titleVideo" src={titleVideo} preload="metadata" autoPlay loop muted playsinline/>
+            <video className="titleVideo" src={titleVideo} preload="metadata" autoPlay loop muted playsInline/>
             <section className="titleSection__content">
                 <div className='grid titleSection__grid'>
                     <div className="titleSection__banner flex flex-column flex-gap-32">
@@ -27,17 +27,17 @@ function TitleSection() {
                             </div>
                         </div>
                         <div className='titleSection__instruments flex flex-wrap flex-gap-8'>
-                            <div className="instrumentTag flex flex-gap-4"><Figma /><span class="buttonSmall">Figma</span></div>
-                            <div className="instrumentTag flex flex-gap-4"><Miro /><span class="buttonSmall">Miro</span></div>
-                            <div className="instrumentTag flex flex-gap-4"><Notion /><span class="buttonSmall">Notion</span></div>
-                            <div className="instrumentTag flex flex-gap-4"><Agile /><span class="buttonSmall">Agile</span></div>
-                            <div className="instrumentTag flex flex-gap-4"><Apple /><span class="buttonSmall">HIG</span></div>                        
-                            <div className="instrumentTag flex flex-gap-4"><Material /><span class="buttonSmall">Material 3</span></div>
-                            <div className="instrumentTag flex flex-gap-4"><Code /><span class="buttonSmall">HTML/CSS</span></div>                                                    
+                            <div className="instrumentTag flex flex-gap-4"><Figma /><span className="buttonSmall">Figma</span></div>
+                            <div className="instrumentTag flex flex-gap-4"><Miro /><span className="buttonSmall">Miro</span></div>
+                            <div className="instrumentTag flex flex-gap-4"><Notion /><span className="buttonSmall">Notion</span></div>
+                            <div className="instrumentTag flex flex-gap-4"><Agile /><span className="buttonSmall">Agile</span></div>
+                            <div className="instrumentTag flex flex-gap-4"><Apple /><span className="buttonSmall">HIG</span></div>                        
+                            <div className="instrumentTag flex flex-gap-4"><Material /><span className="buttonSmall">Material 3</span></div>
+                            <div className="instrumentTag flex flex-gap-4"><Code /><span className="buttonSmall">HTML/CSS</span></div>                                                    
                         </div>
                         <div className='titleSection__buttonBar flex flex-gap-32'>
                             <div className='titleSection__buttonBarGroups flex flex-column'>
-                                <caption className='titleSection__buttonBarGroups'>Идёт набор на&nbsp;сентябрь и&nbsp;ноябрь 2022</caption>
+                                <div className='titleSection__buttonBarGroups'>Идёт набор на&nbsp;сентябрь и&nbsp;ноябрь 2022</div>
                             </div>
                         </div>
                     </div>

@@ -18,9 +18,9 @@ function SectionTeachers() {
                     <p>— Привет! Я работаю дизайнером с&nbsp;2014&nbsp;года. Начинал фрилансером, а&nbsp;с&nbsp;2018 стал работать в&nbsp;компаниях. Последние 3 года я работаю удалённо — сейчас работаю старшим дизайнером в эстонской компании Admiral Markets. Расскажу вам как идти по&nbsp;карьере, чтобы работа приносила удовольствие и&nbsp;достойный доход.</p>
                 </section>
 
-                <section class='flex-column flex-gap-16'>
+                <section className='flex-column flex-gap-16'>
                     <h4>Работы преподавателя</h4>
-                    <section class='sectionTeachers-worksGrid'>
+                    <section className='sectionTeachers-worksGrid'>
                         <div>a</div>
                         <div>b</div>
                         <div>c</div>
@@ -58,9 +58,9 @@ function SectionTeachers() {
                     <p>"Привет! Я дизайнер в Lumos Mobi. Кроме большого опыта работы, у меня большой опыт преподавания в самых разных школах Минска и свой курс про карьеру дизайнера. Я прошла путь от нуля до работы в лучших продуктовых компаниях Беларуси и мне есть чем с вами поделиться.”</p>
                 </section>
 
-                <section class='flex-column flex-gap-16'>
+                <section className='flex-column flex-gap-16'>
                     <h4>Работы преподавателя</h4>
-                    <section class='sectionTeachers-worksGrid'>
+                    <section className='sectionTeachers-worksGrid'>
                         <div>a</div>
                         <div>b</div>
                         <div>c</div>
