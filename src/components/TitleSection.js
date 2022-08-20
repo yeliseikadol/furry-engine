@@ -11,7 +11,7 @@ import {ReactComponent as Notion} from '../assets/logoNotion.svg';
 function TitleSection() {
     return (
         <section className="titleSection">
-            <video className="titleVideo" src={titleVideo} autoPlay loop muted />
+            <video className="titleVideo" src={titleVideo} preload="metadata" autoPlay loop muted playsinline/>
             <section className="titleSection__content">
                 <div className='grid titleSection__grid'>
                     <div className="titleSection__banner flex flex-column flex-gap-32">
