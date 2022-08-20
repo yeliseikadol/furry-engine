@@ -14,14 +14,16 @@ function SectionEnroll() {
                 <div className='flex-column flex-gap-24'>
                     <h4>Интенсивный курс</h4>
                     <h2>UX/UI-дизайнер</h2>
-                    <p>Ближайшие старты: 26 сен, 21 ноя</p>
+                    <h4>Ближайшие старты: 26 сен, 21 ноя</h4>
+                    <h4>Вечерняя форма: <br/>Практикумы с&nbsp;18:00 до&nbsp;20:00 по&nbsp;Минску</h4>
                 </div>
-                <h4>Вечерняя форма: <br/>Практикумы с&nbsp;18:00 до&nbsp;20:00 по&nbsp;Минску</h4>
+                
 
                 <div class='flex-column flex-gap-16'>
                 <div className='flex-column'>
-                    <caption className='stroked'>1690&nbsp;BYN</caption>
-                    <div className='h2 color-red'>1560&nbsp;BYN</div>
+                    <caption className='stroked'>640&nbsp;BYN</caption>
+                    <div className='h2 color-red'>520&nbsp;BYN в&nbsp;месяц</div>
+                    <caption>3 платежа перед каждым месяцем обучения</caption>
                 </div>
 
                 <div className='flex'>

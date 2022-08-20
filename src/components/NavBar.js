@@ -3,7 +3,7 @@ import './navbar.sass'
 
 function NavBar(){
     return (
-        <header>
+        <header className='grid left-1'>
             <div className='flex header--box'>
                 <a href='/' className='h3'>bootcamp.by</a>
                 <div>Интенсивные курсы дизайна в Беларуси</div>
