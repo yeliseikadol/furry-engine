@@ -15,8 +15,10 @@ function SectionAdvantages() {
         <section className="grid">
             <section className="left-1 right-1 flex-column flex-gap-64">
                 <section className="flex-column flex-gap-16 right-6">
-                    <h2 className="text-accent">Особенности</h2>
-                    <p>Bootcamp — это интенсивный практический курс, направленный на&nbsp;успешное выполнение частных заказов и&nbsp;получение работы.</p>
+                    <h2 className='text-accent'>
+                        Bootcamp учит выполнять задачи компаний и&nbsp;частные заказы на&nbsp;практике
+                    </h2>
+                    <h3>Особенности</h3>
                 </section>
                 <section className="sectionAdvantages__cards flex flex-gap-32">
                     <section className="sectionAdvantages__cards-gridbox">
@@ -26,23 +28,23 @@ function SectionAdvantages() {
                         </div>
                         <div className="sectionAdvantages__card flex-column radius-m">
                             <div className='flex flex-v-center sectionAdvantages__iconSection'><Instruction1/><Instruction2/><Instruction3/></div>
-                            <h3>Инструкции для работы пока не хватает опыта</h3>
+                            <h3>Инструкции для&nbsp;работы пока не&nbsp;хватает опыта</h3>
                         </div>
                         <div className="sectionAdvantages__card flex-column radius-m">
                             <div className='flex flex-v-center sectionAdvantages__iconSection'><Remote/></div>
-                            <h3>Для удаленной работы и белорусского рынка</h3>
+                            <h3>Для удаленной работы и&nbsp;белорусского рынка</h3>
                         </div>
                         <div className="sectionAdvantages__card flex-column radius-m">
                             <div className='flex flex-v-center sectionAdvantages__iconSection'><Career/></div>
-                            <h3>Поиск работы уже на 6 неделе после начала обучения</h3>
+                            <h3>Поиск работы уже на&nbsp;6&nbsp;неделе после начала обучения</h3>
                         </div>
                         <div className="sectionAdvantages__card flex-column radius-m">
                             <div className='flex flex-v-center sectionAdvantages__iconSection'><Portfolio/></div>
-                            <h3>2 проекта: мобильное и десктоп приложения</h3>
+                            <h3>2 проекта: мобильное и&nbsp;десктоп приложения</h3>
                         </div>
                         <div className="sectionAdvantages__card flex-column radius-m">
                             <div className='flex flex-v-center sectionAdvantages__iconSection'><Code/><ReactIcon/></div>
-                            <h3>Живой проект на React в конце курса по желанию</h3>
+                            <h3>Живой проект на&nbsp;React</h3>
                         </div>
                     </section>
                     <div className='flex-column flex-gap-32 ibmcertfact radius-m'>

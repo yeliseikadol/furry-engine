@@ -1,17 +1,23 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar'; 
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
+import './navbar.sass'
 
 function NavBar(){
     return (
-        <Box>
-            <AppBar position="static" elevation={0} color="transparent">
-                <Toolbar sx={{ flexGrow: 1, justifyContent: "space-between" }}>
-                    <logo>bootcamp.by</logo>
-                </Toolbar>
-            </AppBar>
-        </Box>
+        <header>
+            <div className='flex header--box'>
+                <a href='/' className='h3'>bootcamp.by</a>
+                <div>Интенсивные курсы дизайна в Беларуси</div>
+                <div>{/*<nav>
+                    <a href='courses'>Курсы</a>
+                    <a href='about'>О буткемпе</a>
+                    <a href='contacts'>Контакты</a>
+                    </nav>
+            </div>
+            <Button
+                buttonSize='btn--small'
+                >Поступить</Button>*/}</div>
+            </div>
+        </header>
     )
 }
 

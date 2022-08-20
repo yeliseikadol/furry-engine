@@ -1,5 +1,5 @@
 import React from 'react'
-import './button.css'
+import './button.sass'
 
 const styles = [
     "btn--primary--solid",
@@ -38,3 +38,16 @@ function Button({
 }
 
 export default Button
+
+
+
+
+/* 
+    <Button onClick={() => {console.log("You Clicked on Me!")}}
+        type="button"
+        buttonStyle="btn--primary--outline"
+        buttonSize="btn--small"
+    >
+        Buy Now
+    </Button>
+*/

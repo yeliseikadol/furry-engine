@@ -13,34 +13,34 @@ function Form2() {
 
     return (
         <>
-            <div className='form'>
+            <div className='segmented--сontrols select--group'>
                 <input
                     type="radio"
-                    name='segmentedControls'
-                    id='exampleGroup1'
-                    value='group1'
+                    name='selectGroup'
+                    id='group1'
+                    value='19 сен — 9 дек'
                     checked={isChecked('group1')}
                     onChange={onSelect}
                 />
-                <label htmlFor='exampleGroup1'>Group1</label>
+                <label htmlFor='group1'>26 сен — 16 дек</label>
                 <input
                     type="radio"
-                    name='segmentedControls'
-                    id='exampleGroup2'
-                    value='group2'
+                    name='selectGroup'
+                    id='group2'
+                    value='21 ноя — 10 фев'
                     checked={isChecked('group2')}
                     onChange={onSelect}
                 />
-                <label htmlFor='exampleGroup2'>Group2</label>
+                <label htmlFor='group2'>21 ноя — 10 фев</label>
                 <input
                     type="radio"
-                    name='segmentedControls'
-                    id='exampleGroup3'
-                    value='group3'
+                    name='selectGroup'
+                    id='group3'
+                    value='9 янв — 31 мар'
                     checked={isChecked('group3')}
                     onChange={onSelect}
                 />
-                <label htmlFor='exampleGroup3'>Group3</label>
+                <label htmlFor='group3'>9 янв — 31 мар</label>
             </div>
         </>
     )

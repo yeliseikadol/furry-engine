@@ -1,0 +1,77 @@
+@import Colors
+@import Typography
+@import Grid
+
+button
+    background: $background--accent
+    color: $text--inverted
+    border-radius: $add--8
+    padding: $add--8 $add--24
+    border: 2px solid transparent
+    box-sizing: border-box
+    min-height: 40px
+
+.inlineListView 
+    display: inline-flex
+    gap: $add--12
+    align-items: baseline
+
+    .dot
+        width: 12px
+        height: 12px
+        border-radius: 50%
+        background-color: $primary
+
+/*Header*/
+
+header
+    display: flex
+    align-items: baseline
+    gap: $add--32
+
+header a
+    text-decoration: none
+    border: none
+    color: $text--primary
+
+
+/*Hero Section*/
+
+%flex-column
+    display: flex
+    flex-direction: column
+
+.hero--section
+    .video--background 
+        max-width: 100%
+        border-radius: $add--64
+        background: black
+        padding: $add--64
+
+    .grid--regular
+        max-width: 1280px
+        margin: 0 auto
+        display: flex
+        align-items: center
+        padding-left: 48px
+
+    .hero--banner 
+        @extend %flex-column
+        max-width: 600px
+        padding: $add--48
+        border-radius: $add--48
+        background-color: $background--primary
+        gap: $add--32
+        box-sizing: border-box
+
+        .content
+            @extend %flex-column
+            gap: $add--24
+
+            h1
+                text-transform: none
+                font-size: 52px
+
+    .buttonBar
+        display: flex
+        gap: $add--32

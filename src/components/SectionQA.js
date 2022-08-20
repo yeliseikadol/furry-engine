@@ -12,7 +12,7 @@ function SectionQA() {
                         <p>Скорее всего, на этом этапе у вас есть несколько вопросов. Если вы не нашли ответ, то отправьте нам вопрос через форму или запишитесь на звонок.</p>
                     </section>
                 </section>
-                <div><button>Задать свой вопрос</button></div>
+                <div>{/*<button>Задать свой вопрос</button>*/}</div>
             </section>
 
             <section className='sectionQA-section flex-column'>

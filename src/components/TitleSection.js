@@ -17,7 +17,7 @@ function TitleSection() {
                     <div className="titleSection__banner flex flex-column flex-gap-32">
                         <div className='flex flex-column flex-gap-24'>
                             <h4 className="titleSection__eyebrow">Интенсивный курс</h4>
-                            <h2 className="titleSection__title">UX/UI-дизайнер от&nbsp;нуля до&nbsp;работы</h2>
+                            <h2 className="titleSection__title">UX/UI-дизайнер с&nbsp;нуля до&nbsp;портфолио</h2>
                             <div className='titleSection__features flex flex-wrap flex-gap-8'>
                                 <div>Онлайн</div>
                                 <div><span className="dot"></span></div>
@@ -38,8 +38,7 @@ function TitleSection() {
                         <div className='titleSection__buttonBar flex flex-gap-32'>
                             <button>Записаться</button>
                             <div className='titleSection__buttonBarGroups flex flex-column'>
-                                <caption className='titleSection__buttonBarGroups-title'>Идёт набор в группы</caption>
-                                <caption className='titleSection__buttonBarGroups-groups'>19 сен, 7 ноя, 26 дек</caption>
+                                <caption className='titleSection__buttonBarGroups'>Идёт набор на&nbsp;сентябрь и&nbsp;ноябрь 2022</caption>
                             </div>
                         </div>
                     </div>

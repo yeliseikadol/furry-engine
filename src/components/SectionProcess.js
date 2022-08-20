@@ -1,7 +1,4 @@
 import React from 'react'
-import imageProcess1 from '../assets/imageProcess1.jpg'
-import imageProcess2 from '../assets/imageProcess2.jpg'
-import imageProcessBooks from '../assets/imageProcessBooks.png'
 import { ReactComponent as IconBooks} from '../assets/iconSectionProcessBooks.svg'
 import { ReactComponent as IconLaptop} from '../assets/iconProcessNotebook.svg'
 import { ReactComponent as IconHeadphones} from '../assets/iconProcessHeadphones.svg'
@@ -14,17 +11,16 @@ function SectionProcess() {
 
                 <section className="left-1 right-7 flex-column flex-gap-32">
                     <h4>Как происходит обучение</h4>
-                    <h1 className="text-accent">Практика с преподавателем, теория — в удобное время</h1>
-                    <p>В дистанционных курсах время с преподавателем уходит на практику, а теорию вы изучаете дома. У вас будут учебники по дизайну от Бюро Горбунова, а два раза в неделю вы будете работать с преподавателем на практических занятиях.</p>
+                    <h1 className="text-accent">Практика на&nbsp;занятиях, теория — в&nbsp;удобное время</h1>
+                    <p>В дистанционных курсах время с&nbsp;преподавателем уходит на&nbsp;практику, а&nbsp;теорию вы изучаете дома. Для этого у&nbsp;вас будут учебники Бюро Горбунова, а&nbsp;два раза в&nbsp;неделю вы будете работать с&nbsp;преподавателем на&nbsp;практических занятиях.</p>
                 </section>
 
                 <section className="sectionProcess-image1 flex-column flex-gap-16">
-                    <img src={imageProcess1} alt="на компьютере открыта программа Figma, но видно что делает преподаватель"/>
+                    <div class='image--process--learn'></div>
                     <caption className='flex left-1 right-1'>Занятия устроены так, чтобы вы видели экран преподавателя и могли работать сами.</caption>
                     <div className='sectionProcess-image1-fact flex-column'>
                         <div className='h1'>2+1</div>
-                        <div>2 практических занятия в неделю
-    + 1 мастеркласс</div>
+                        <div>2&nbsp;практических занятия в неделю + 1&nbsp;мастеркласс</div>
                     </div>
                 </section>
 
@@ -38,7 +34,7 @@ function SectionProcess() {
                 </section>
 
                 <section className="sectionProcess-image2 flex-column flex-gap-64">
-                    <img src={imageProcess2} alt="ученики просматривают работы все вместе"/>
+                    <div class='image--process--cooperate'></div>
                     <caption className='flex'>Студенты выполняют задания одновременно в общем файле.</caption>
                 </section>
 
@@ -47,12 +43,12 @@ function SectionProcess() {
             <section className="flex left-1 right-1">
                 <section className="sectionProcessBooksContainer flex-column right-6 radius-m flex-gap-24">
                     <IconBooks/>
-                    <div class="flex-column flex-gap-16">
+                    <div className="flex-column flex-gap-16">
                         <h3>Теория по учебникам Бюро Горбунова, которыми вы можете пользоваться и после учёбы</h3>
                         <p>Каждый студент получает именную подписку на 1 год</p>
                     </div>
-                    <div class="sectionProcessBooksContainer-fact">
-                        <img src={imageProcessBooks} alt="учебники Бюро Горбунова"/>
+                    <div className="sectionProcessBooksContainer-fact">
+                        <div className='image--books'></div>
                     </div>
                 </section>
             </section>

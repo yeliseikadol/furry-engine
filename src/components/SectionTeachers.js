@@ -7,15 +7,15 @@ function SectionTeachers() {
             <section className='flex-column right-6 flex-gap-32'>
                 <h4>Преподаватели</h4>
                 <h2 className='text-accent'>Опытные белорусские дизайнеры</h2>
-                <p>Нам важно, чтобы преподаватели имели опыт работы в хороших компаниях и могли служить для вас примером. Вы получите опыт только от тех, кто сам прошёл путь с нуля и понимает о чём говорит.</p>
+                <p>Нам важно, чтобы преподаватели имели опыт работы в&nbsp;хороших компаниях и&nbsp;могли служить для вас примером. Вы&nbsp;получите знания только от&nbsp;тех, кто сам прошёл путь с&nbsp;нуля.</p>
             </section>
 
             <section className='flex-column flex-gap-64'>
 
                 <section className='flex-column right-6 flex-gap-16'>
                     <h3>Елисей Кадол</h3>
-                    <h4><a href='https://admiralmarkets.com' target='blank_'>Admiral Markets</a>, Senior UX/UI Designer</h4>
-                    <p>— Привет! Я работаю дизайнером с 2014 года. Начинал как фрилансер, после рождения сына в 2018 году стал работать на компании. Последние 3 года работаю удалённо. Сейчас работаю старшим дизайнером в эстонской компании Admirals. Расскажу вам как идти по карьере, чтобы жить ту жизнь, которую хочется.</p>
+                    <h4><a href='https://admiralmarkets.com' target='blank_'>Admiral Markets</a> <br/>Senior UX/UI Designer</h4>
+                    <p>— Привет! Я работаю дизайнером с&nbsp;2014&nbsp;года. Начинал фрилансером, а&nbsp;с&nbsp;2018 стал работать в&nbsp;компаниях. Последние 3 года я работаю удалённо — сейчас работаю старшим дизайнером в эстонской компании Admiral Markets. Расскажу вам как идти по&nbsp;карьере, чтобы работа приносила удовольствие и&nbsp;достойный доход.</p>
                 </section>
 
                 <section class='flex-column flex-gap-16'>
@@ -25,10 +25,14 @@ function SectionTeachers() {
                         <div>b</div>
                         <div>c</div>
                     </section>
-                    <section className='sectionTeachers-links flex flex-gap-8'><a href='https://behance.net/yeliseikadol' target='blank_'>Behance</a><a href='https://behance.net/yeliseikadol' target='blank_'>Dribbble</a><a href='https://behance.net/yeliseikadol' target='blank_'>LinkedIn</a></section>
+                    <section className='sectionTeachers-links flex flex-gap-8'>
+                        <a href='https://behance.net/yeliseikadol' target='blank_'>Behance</a>
+                        <a href='https://dribbble.com/yeliseikadol' target='blank_'>Dribbble</a>
+                        <a href='https://instagram.com/yeliseikadol' target='blank_'>Instagram</a>
+                        <a href='https://linkedin.com/in/yeliseikadol' target='blank_'>LinkedIn</a></section>
                 </section>
-
-                <section className='flex-column flex-gap-32 sectionTeachers-testimonials'>
+                
+                <div>{/*<section className='flex-column flex-gap-32 sectionTeachers-testimonials'>
                     <div className='flex sectionTeachers-testimonial'>
                         <div className='sectionTeachers-testimonial-text'>Елисей очень хороший преподаватель. Постоянно был на связи, давал быстрый фидбэк, делился своим огромным богажом знаний. Елисей действительно был заинтересован в каждом ученике, а такое встретишь очень редко) Часто подерживал в сложные моменты и помогал их решать. Очень довольна, что у меня был такой преподаватель.</div>
                         <div className='flex-column flex-gap-16'>
@@ -43,8 +47,7 @@ function SectionTeachers() {
                             <div className='buttonSmall'>Марина Глущук</div>
                         </div>
                     </div>
-                </section>
-
+                </section>*/}</div>
             </section>
 
             <section className='flex-column flex-gap-64'>
@@ -62,10 +65,14 @@ function SectionTeachers() {
                         <div>b</div>
                         <div>c</div>
                     </section>
-                    <section className='sectionTeachers-links flex flex-gap-8'><a href='https://behance.net/yeliseikadol' target='blank_'>Behance</a><a href='https://behance.net/yeliseikadol' target='blank_'>Dribbble</a><a href='https://behance.net/yeliseikadol' target='blank_'>LinkedIn</a></section>
+                    <section className='sectionTeachers-links flex flex-gap-8'>
+                        <a href='https://www.behance.net/oksana_vorobey' target='blank_'>Behance</a>
+                        <a href='https://www.instagram.com/oksana_vorobey/' target='blank_'>Instagram</a>
+                        <a href='https://www.linkedin.com/in/oksana-vorobyeva-81a379203/' target='blank_'>LinkedIn</a>
+                    </section>
                 </section>
                 
-                <section className='flex-column flex-gap-32 sectionTeachers-testimonials'>
+                <div>{/*<section className='flex-column flex-gap-32 sectionTeachers-testimonials'>
                     <div className='flex sectionTeachers-testimonial'>
                         <div className='sectionTeachers-testimonial-text'>Елисей очень хороший преподаватель. Постоянно был на связи, давал быстрый фидбэк, делился своим огромным богажом знаний. Елисей действительно был заинтересован в каждом ученике, а такое встретишь очень редко) Часто подерживал в сложные моменты и помогал их решать. Очень довольна, что у меня был такой преподаватель.</div>
                         <div className='flex-column flex-gap-16'>
@@ -80,7 +87,7 @@ function SectionTeachers() {
                             <div className='buttonSmall'>Марина Глущук</div>
                         </div>
                     </div>
-                </section>
+            </section>*/}</div>
 
             </section>
 

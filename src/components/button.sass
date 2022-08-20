@@ -1,0 +1,32 @@
+$primary: var(--text-primary)
+$warning: #ffd028
+$danger: #eb3f27
+$success: #75fa83
+$white: #fdfdfd
+$dark: #181717
+
+.btn
+    font-family: 'tt-wellingtons', Helvetica, sans-serif
+
+    &--primary
+        background-color: $primary
+        color: $white
+        border: 2px solid transparent
+
+        &--solid
+            background-color: $primary
+            color: $white
+            border: 2px solid transparent
+
+        &--outline
+            background-color: transparent
+            color: $primary
+            border: 2px solid $primary
+
+    &--medium
+        padding: 10px 20px
+        font-size: 18px
+
+    &--small
+        padding: 6px 12px
+        font-size: 14px

@@ -1,0 +1,70 @@
+$animation--duration-fast-01: 70ms
+$animation--duration-fast-02: 110ms
+$animation--duration-moderate-01: 150ms
+$animation--duration-moderate-02: 240ms
+$animation--duration-slow-01: 400ms
+$animation--duration-slow-02: 700ms
+$animation--productive: cubic-bezier(0.2, 0, 0.38, 0.9)
+$animation--productive-entrance: cubic-bezier(0, 0, 0.38, 0.9)
+$animation--productive-exit: cubic-bezier(0.2, 0, 1, 0.9)
+$animation--expressive: cubic-bezier(0.4, 0.14, 0.3, 1)
+$animation--expressive-entrance: cubic-bezier(0, 0, 0.3, 1)
+$animation--expressive-exit: cubic-bezier(0.4, 0.14, 1, 1)
+
+/*COMPONENTS*/
+
+a 
+    transition: all $animation--duration-fast-02 $animation--productive-exit
+
+    &:hover, &:active
+        transition: all $animation--duration-fast-01 $animation--productive
+    
+button
+    transition: all $animation--duration-fast-02 $animation--productive-exit
+
+    &:hover
+        transition: all $animation--duration-fast-01 $animation--productive
+
+    &:active
+        transition: all $animation--duration-fast-01 $animation--productive
+
+
+.animation
+
+    &--duration
+
+        &-fast
+            &-01
+                transition-duration: 70ms
+            &-02 
+                transition-duration: 110ms
+
+        &-moderate
+            &-01
+                transition-duration: 150ms
+            &-02
+                transition-duration: 240ms
+
+        &-slow
+            &-01
+                transition-duration: 400ms
+            &-02
+                transition-duration: 700ms
+
+    &--productive
+        transition-timing-function: cubic-bezier(0.2, 0, 0.38, 0.9)
+        
+        &-entrance
+            transition-timing-function: cubic-bezier(0, 0, 0.38, 0.9)
+
+        &-exit
+            transition-timing-function: cubic-bezier(0.2, 0, 1, 0.9)
+
+    &--expressive
+        transition-timing-function: cubic-bezier(0.4, 0.14, 0.3, 1)
+
+        &-entrance
+            transition-timing-function: cubic-bezier(0, 0, 0.3, 1)
+
+        &-exit
+            transition-timing-function: cubic-bezier(0.4, 0.14, 1, 1)

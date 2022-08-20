@@ -9,9 +9,9 @@ function SectionCurriculum() {
                 <section className='flex-column right-6 flex-gap-16'>
                     <section className='flex-column flex-gap-24'>
                         <h4>Программа</h4>
-                        <h2 className='text-accent'>От простого к сложному</h2>
+                        <h2 className='text-accent'>Учитесь шаг за&nbsp;шагом от&nbsp;простого к&nbsp;сложному</h2>
                     </section>
-                    <p>Программа составлена с учётом ожиданий работодателей и для фриланса. Чтобы поддерживать её актуальность, мы отслеживаем изменения в индустрии дизайна. Обучение проходит в формате недельных спринтов. Стоит напомнить, что у нас интенсивный курс.</p>
+                    <p>Программа составлена с&nbsp;учётом ожиданий работодателей и&nbsp;для&nbsp;фриланса. Чтобы поддерживать её актуальность, мы отслеживаем изменения в&nbsp;индустрии дизайна. Обучение проходит в&nbsp;формате недельных спринтов. Тут стоит напомнить, что у&nbsp;нас интенсивный курс.</p>
                 </section>
 
                 <section className='curriculumGrid'>
@@ -30,8 +30,8 @@ function SectionCurriculum() {
                             2 неделя
                         </div>
                         <h3>Синтез</h3>
-                        <p>Проблемы, точки, HMW, пользователи и сценарии</p>
-                        <div className='button'>Задание. Экран</div>
+                        <p>Проблемы, точки, HMW, пользователи и&nbsp;сценарии</p>
+                        <div className='button'>Задание. Экран. Сертификация IBM</div>
                     </div>
 
                     <div className='curriculumGrid-item'>
@@ -48,7 +48,7 @@ function SectionCurriculum() {
                             4 неделя
                         </div>
                         <h3>Компоненты, стили</h3>
-                        <p>Цвет, Шрифт, Auto-layout, компоненты и варианты</p>
+                        <p>Цвет, Шрифт, Auto-layout, компоненты и&nbsp;варианты</p>
                         <div className='button'>Задание. Библиотека стилей</div>
                     </div>
 
@@ -66,7 +66,7 @@ function SectionCurriculum() {
                             2 недели
                         </div>
                         <h3><IconRest/>Перерыв</h3>
-                        <p>Время передохнуть и позаниматься своими делами</p>
+                        <p>Время передохнуть и&nbsp;позаниматься своими делами</p>
                     </div>
 
                     <div className='curriculumGrid-item'>
@@ -83,7 +83,7 @@ function SectionCurriculum() {
                             7 неделя
                         </div>
                         <h3>Внутренний продукт</h3>
-                        <p>Продукт для компании, CJM, работа в команде, Agile</p>
+                        <p>Продукт для&nbsp;компании, CJM, работа в&nbsp;команде, Agile</p>
                         <div className='button'>Задание. Серия экранов</div>
                     </div>
 
@@ -101,7 +101,7 @@ function SectionCurriculum() {
                             9 неделя
                         </div>
                         <h3><IconLaunch/>Запуск проекта</h3>
-                        <p>Вёрстка проекта в HTML, публикация в интернете</p>
+                        <p>Вёрстка проекта в&nbsp;HTML, публикация в&nbsp;интернете</p>
                         <div className='button'>Задание. Публикация проекта</div>
                     </div>
 
@@ -118,8 +118,8 @@ function SectionCurriculum() {
                         <div className='button'>
                             Навсегда
                         </div>
-                        <h3>Помощь и фидбек</h3>
-                        <p>Доступ к материалам, чатам с фидбеком и мастерклассам</p>
+                        <h3>Помощь и&nbsp;фидбек</h3>
+                        <p>Доступ к&nbsp;материалам, чатам с&nbsp;фидбеком и&nbsp;мастерклассам следующих групп</p>
                     </div>
 
                 </section>
