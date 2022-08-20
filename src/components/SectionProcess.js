@@ -16,8 +16,8 @@ function SectionProcess() {
                 </section>
 
                 <section className="sectionProcess-image1 flex-column flex-gap-16">
-                    <div class='image--process--learn'></div>
-                    <caption className='flex left-1 right-1'>Занятия устроены так, чтобы вы видели экран преподавателя и могли работать сами.</caption>
+                    <div className='image--process--learn'></div>
+                    <div className='caption flex left-1 right-1'>Занятия устроены так, чтобы вы видели экран преподавателя и могли работать сами.</div>
                     <div className='sectionProcess-image1-fact flex-column'>
                         <div className='h1'>2+1</div>
                         <div>2&nbsp;практических занятия в неделю + 1&nbsp;мастеркласс</div>
@@ -34,8 +34,8 @@ function SectionProcess() {
                 </section>
 
                 <section className="sectionProcess-image2 flex-column flex-gap-64">
-                    <div class='image--process--cooperate'></div>
-                    <caption className='flex'>Студенты выполняют задания одновременно в общем файле.</caption>
+                    <div className='image--process--cooperate'></div>
+                    <div className='caption'>Студенты выполняют задания одновременно в общем файле.</div>
                 </section>
 
             </section>
@@ -68,7 +68,7 @@ function SectionProcess() {
                             <div className="processCalendar-dayLabel">Пн</div>
                             <div className="flex-column processCalendar-block processCalendar-2hour">
                                 <h4>Практическое занятие</h4>
-                                <caption>2 часа</caption>
+                                <div className='caption'>2 часа</div>
                             </div>
                         </div>
 
@@ -76,7 +76,7 @@ function SectionProcess() {
                             <div className="processCalendar-dayLabel">Вт</div>
                             <div className="flex-column processCalendar-block processCalendar-1hour processCalendar-optional">
                                 <h4>Групповая комната</h4>
-                                <caption>1 час</caption>
+                                <div className='caption'>1 час</div>
                             </div>
                         </div>
 
@@ -84,7 +84,7 @@ function SectionProcess() {
                             <div className="processCalendar-dayLabel">Ср</div>
                             <div className="flex-column processCalendar-block processCalendar-2hour">
                                 <h4>Практическое занятие</h4>
-                                <caption>2 часа</caption>
+                                <div className='caption'>2 часа</div>
                             </div>
                         </div>
 
@@ -92,11 +92,11 @@ function SectionProcess() {
                             <div className="processCalendar-dayLabel">Чт</div>
                             <div className="flex-column processCalendar-block processCalendar-1hour processCalendar-optional">
                                 <h4>Ответы на вопросы</h4>
-                                <caption>1 час</caption>
+                                <div className='caption'>1 час</div>
                             </div>
                             <div className="flex-column processCalendar-block processCalendar-1hour">
                                 <h4>Мастеркласс</h4>
-                                <caption>1 час</caption>
+                                <div className='caption'>1 час</div>
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@ function SectionProcess() {
                     
                     </section>
 
-                    <caption>Все занятия записываются, поэтому ничего страшного, если вы пропустите одно или несколько.</caption>
+                    <div className='caption'>Все занятия записываются, поэтому ничего страшного, если вы пропустите одно или несколько.</div>
                 </section>
 
             </section>
@@ -129,7 +129,7 @@ function SectionProcess() {
 
             <section className='flex-column left-1 right-7 flex-gap-24'>
                 <section className='processRequirements-iconSection flex'><IconLaptop/><IconHeadphones/></section>
-                <div class='flex-column flex-gap-16'>
+                <div className='flex-column flex-gap-16'>
                     <h3 className='text-accent'>Нужен только компьютер или ноутбук</h3>
                     <p>Для выпол­не­ния зада­ний нужен ком­пью­тер с нормальным интер­не­том. Все программы работают в браузере, поэтому вам не надо покупать макбук или айфон. Нач­ните работать на том обо­ру­до­ва­нии, кото­рое у вас уже есть.</p>
                 </div>

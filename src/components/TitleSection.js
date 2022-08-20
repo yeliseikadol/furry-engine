@@ -9,10 +9,31 @@ import {ReactComponent as Material} from '../assets/materialDesign.svg';
 import {ReactComponent as Notion} from '../assets/logoNotion.svg';
 
 function TitleSection() {
+
+    const EmbedVideo = function(props) {
+        return (
+            <div dangerouslySetInnerHTML={{ __html: `
+             <video
+               loop
+               muted
+               autoplay
+               playsinline
+               webkit-playsinline
+               preload="metadata"
+               src="${props.src}"
+               class="${props.className}"
+             />,
+           ` }}></div>
+        )
+     }
+
+
     return (
         <section className="titleSection">
-            <video className="titleVideo" src={titleVideo} preload="metadata" autoPlay loop muted playsInline/>
-            <section className="titleSection__content">
+
+        <EmbedVideo className="titleVideo" src={titleVideo} autoPlay playsInline muted loop/>
+
+        <section className="titleSection__content">
                 <div className='grid titleSection__grid'>
                     <div className="titleSection__banner flex flex-column flex-gap-32">
                         <div className='flex flex-column flex-gap-24'>
