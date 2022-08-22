@@ -12,15 +12,15 @@ function Form() {
             <div>
                 <label>
                     <p className='input--title'>Имя, Фамилия</p>
-                    <input type="text" name="name" />
+                    <input type="text" name="name" required />
                 </label>
                 <label>
                     <p className='input--title'>Email</p>
-                    <input type="email" name="email" />
+                    <input type="email" name="email" required />
                 </label>
                 <label>
                     <p className='input--title'>Телефон (на экстренный случай)</p>
-                    <input type="tel" name="tel" />
+                    <input type="tel" name="tel" required />
                 </label>
                 <label>
                     <p className='input--title'>Группа</p>
@@ -28,6 +28,7 @@ function Form() {
                         name='group'
                         value={group}
                         onChange={(e) => setGroup(e.target.value)}
+                        required
                         >
                         <option value='26 сентября — 9 декабря'>26 сентября — 9 декабря</option>
                         <option value='21 ноября — 10 февраля'>21 ноября — 10 февраля</option>

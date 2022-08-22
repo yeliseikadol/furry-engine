@@ -1,5 +1,6 @@
 import React from 'react'
-import titleVideo from '../title-video.mp4'
+//import titleVideo from '../title-video.mp4'
+import titleVideoWebM from '../assets/h265.webm'
 import {ReactComponent as Figma} from '../assets/logoFigma.svg';
 import {ReactComponent as Apple} from '../assets/appleLogo.svg';
 import {ReactComponent as Code} from '../assets/code.svg';
@@ -31,7 +32,7 @@ function TitleSection() {
     return (
         <section className="titleSection">
 
-        <EmbedVideo className="titleVideo" src={titleVideo} autoPlay playsInline muted loop/>
+        <EmbedVideo className="titleVideo" src={titleVideoWebM} autoPlay playsInline muted loop/>
 
         <section className="titleSection__content">
                 <div className='grid titleSection__grid'>
