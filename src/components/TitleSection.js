@@ -8,12 +8,13 @@ import {ReactComponent as Agile} from '../assets/agile.svg';
 import {ReactComponent as Miro} from '../assets/logoMiro.svg';
 import {ReactComponent as Material} from '../assets/materialDesign.svg';
 import {ReactComponent as Notion} from '../assets/logoNotion.svg';
+import { SmoothCorners } from 'react-smooth-corners';
 
 function TitleSection() {
 
     const EmbedVideo = function(props) {
         return (
-            <div dangerouslySetInnerHTML={{ __html: `
+            <div className='flex' dangerouslySetInnerHTML={{ __html: `
              <video
                loop
                muted
@@ -28,12 +29,25 @@ function TitleSection() {
         )
      }
 
+       
+    const VideoContainer = function({children}) {
+        return (
+        <SmoothCorners
+            corners="24, 24"
+            borderRadius="48px"
+            as="div"
+        >
+            {children}
+        </SmoothCorners>
+        )
+    }
+
 
     return (
-        <section className="titleSection">
-
-        <EmbedVideo className="titleVideo" src={titleVideoWebM} autoPlay playsInline muted loop></EmbedVideo>
-
+        <section className="titleSection">           
+        <VideoContainer>
+            <EmbedVideo className="titleVideo" src={titleVideoWebM} autoPlay playsInline muted loop></EmbedVideo>
+        </VideoContainer>
         <section className="titleSection__content">
                 <div className='grid titleSection__grid'>
                     <div className="titleSection__banner flex flex-column flex-gap-32">
